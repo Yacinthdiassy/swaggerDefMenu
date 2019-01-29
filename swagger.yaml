@@ -1,0 +1,263 @@
+swagger: "2.0"
+info:
+  description: ""
+  version: "1.0.0"
+  title: "Swagger mon menu"
+  termsOfService: "http://swagger.io/terms/"
+  contact:
+    email: "yacinthdiassy@gmail.com"
+host: "monmenu.2v360.com"
+basePath: "/"
+tags:
+- name: "user"
+  description: "Everything about your Pets"
+schemes:
+- "https"
+- "http"
+paths:
+  /users/:
+    get:
+      tags:
+      - "user"
+      summary: "Get all users"
+      description: ""
+      produces:
+      - "application/json"
+      responses:
+        200:
+          description: "successful operation"
+  /restaurants/:
+    get:
+      tags:
+      - "restaurant"
+      summary: "Get all restaurants"
+      description: ""
+      produces:
+      - "application/json"
+      responses:
+        200:
+          description: "successful operation"
+  /restaurants_simple/:
+    get:
+      tags:
+      - "restaurants_simple"
+      summary: "Get all simple restaurants"
+      description: ""
+      produces:
+      - "application/json"
+      responses:
+        200:
+          description: "successful operation"
+  /evenement/:
+    get:
+      tags:
+      - "evenement"
+      summary: "Get all events"
+      description: ""
+      produces:
+      - "application/json"
+      responses:
+        200:
+          description: "successful operation"
+  /favoris/:
+    get:
+      tags:
+      - "favoris"
+      summary: "Get all favoris"
+      description: ""
+      produces:
+      - "application/json"
+      responses:
+        200:
+          description: "successful operation"
+  /horaires/:
+    get:
+      tags:
+      - "horaires"
+      summary: "Get all horaires"
+      description: ""
+      produces:
+      - "application/json"
+      responses:
+        200:
+          description: "successful operation"
+  /plats/:
+    get:
+      tags:
+      - "plats"
+      summary: "Get all plats"
+      description: ""
+      produces:
+      - "application/json"
+      responses:
+        200:
+          description: "successful operation"
+  /positions/:
+    get:
+      tags:
+      - "positions"
+      summary: "Get all positions"
+      description: ""
+      produces:
+      - "application/json"
+      responses:
+        200:
+          description: "successful operation"
+  /quartiers/:
+    get:
+      tags:
+      - "quartiers"
+      summary: "Get all quartiers"
+      description: ""
+      produces:
+      - "application/json"
+      responses:
+        200:
+          description: "successful operation"
+  /commandes/:
+    get:
+      tags:
+      - "commandes"
+      summary: "Get all commandes"
+      description: ""
+      produces:
+      - "application/json"
+      responses:
+        200:
+          description: "successful operation"
+  /categories/:
+    get:
+      tags:
+      - "categories"
+      summary: "Get all categories"
+      description: ""
+      produces:
+      - "application/json"
+      responses:
+        200:
+          description: "successful operation"
+  /categories_simple/:
+    get:
+      tags:
+      - "categories_simple"
+      summary: "Get all simple categories"
+      description: ""
+      produces:
+      - "application/json"
+      responses:
+        200:
+          description: "successful operation"
+  /publicites/:
+    get:
+      tags:
+      - "publicites"
+      summary: "Get all publicites"
+      description: ""
+      produces:
+      - "application/json"
+      responses:
+        200:
+          description: "successful operation"
+  /cuisines/:
+    get:
+      tags:
+      - "cuisines"
+      summary: "Get all cuisines"
+      description: ""
+      produces:
+      - "application/json"
+      responses:
+        200:
+          description: "successful operation"
+  /jours/:
+    get:
+      tags:
+      - "jours"
+      summary: "Get all days"
+      description: ""
+      produces:
+      - "application/json"
+      responses:
+        200:
+          description: "successful operation"
+  /clients/:
+    get:
+      tags:
+      - "clients"
+      summary: "Get all clients"
+      description: ""
+      produces:
+      - "application/json"
+      responses:
+        200:
+          description: "successful operation"
+  /commande_plat/:
+    get:
+      tags:
+      - "commande_plat"
+      summary: "Get all commande_plat"
+      description: ""
+      produces:
+      - "application/json"
+      responses:
+        200:
+          description: "successful operation"
+  /commande_plat_info/:
+    get:
+      tags:
+      - "commande_plat_info"
+      summary: "Get all commande_plat_info"
+      description: ""
+      produces:
+      - "application/json"
+      responses:
+        200:
+          description: "successful operation"
+  /prix_livraison/:
+    get:
+      tags:
+      - "prix_livraison"
+      summary: "Get all prix_livraison"
+      description: ""
+      produces:
+      - "application/json"
+      responses:
+        200:
+          description: "successful operation"
+  /prix_livraison_info/:
+    get:
+      tags:
+      - "prix_livraison_info"
+      summary: "Get all prix_livraison_info"
+      description: ""
+      produces:
+      - "application/json"
+      responses:
+        200:
+          description: "successful operation"
+  /commande_repas_plat/:
+    get:
+      tags:
+      - "commande_repas_plat"
+      summary: "Get all commande_repas_plat"
+      description: ""
+      produces:
+      - "application/json"
+      responses:
+        200:
+          description: "successful operation"
+  /devices/:
+    get:
+      tags:
+      - "devices"
+      summary: "Get all devices"
+      description: ""
+      produces:
+      - "application/json"
+      responses:
+        200:
+          description: "successful operation"
+          
+          
+  
+    
